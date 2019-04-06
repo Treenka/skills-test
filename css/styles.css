@@ -1,0 +1,333 @@
+/***********BODY***********************************/
+body {
+  margin: 0;
+}
+
+/***************HEADER******************************/
+
+header {
+  height: 18.52%;
+}
+.orange {
+  width: 100%;
+  background-color: #ff6200;
+  justify-content: center;
+  height: 23.58%;
+}
+
+.ph-num {
+  background-color: #ff6200;
+  width: 62.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  font-family: bebas-neue, sans-serif;
+  padding-top: 1.32%;
+  padding-bottom: 1.32%;
+}
+
+.ph-num p {
+  margin-top: 0px;
+  font-weight:bold;
+
+}
+
+.call-us, .login {
+  color: #be3600;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: bebas-neue, sans-serif;
+}
+
+span {
+  color: white;
+}
+.orange-logo {
+  color:#ff6200;
+
+}
+
+
+/**Nav Bar and LOGO**/
+
+.grey {
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+/*****logo nav container******/
+
+.logo-nav {
+  width: 62.5%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  background-color: #f9f9f9;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/***********YOURLOGO*************/
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.logo {
+  width: 16.6%;
+  font-size: 2.57rem;
+  font-family: bebas-neue, sans-serif;
+  font-weight: 200;
+  margin-top: 4.36%;
+  margin-bottom: 4.89%;
+}
+
+.nav {
+  width: 46.6%;
+}
+
+ul {
+  list-style: none;
+}
+
+.title-menu {
+  display:flex;
+  flex-direction: row;
+  padding-left: 0px;
+  justify-content: space-between;
+}
+
+/*
+margin between menu items
+*/
+
+.title {
+  margin: 0 1.875%;
+  font-family: myriad-pro, sans-serif;
+  font-size: .8125rem;
+}
+
+
+/*.title7 {
+  padding-right: 1.5%;
+}*/
+
+/***HIDDEN MENUS***/
+.sub-menu, .sub-menu2 {
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}
+
+/*************************MENU OPTIONS******************************/
+
+ .title p:hover {
+  /* change selection appearance */
+
+  font-weight: 700;
+  border-bottom: .16rem solid #ff6200;
+  border-width: 100%;
+  padding-bottom: .32rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************MAIN**********************/
+
+main {
+  width: 62.5%;
+  margin: auto;
+}
+
+.title {
+  margin-left: 0px;
+}
+
+/*
+style the H3
+*/
+
+h3 {
+  font-family: ubuntu, sans-serif;
+  color: #adadad;
+  font-weight: 400;
+  font-size: .875rem;
+  margin-top: 6.61%;
+  margin-bottom: 6.61%;
+}
+
+.contact-sp {
+  font-family: ubuntu, sans-serif;
+  font-weight: 700;
+  color: #6a6a6a;
+}
+
+/*
+Contact section
+*/
+/**the title**/
+.contact h2 {
+  font-family: open-sans, sans-serif;
+  font-weight:700;
+  color: #ff6200;
+  font-size: 1.685rem;
+  margin-top: 0px;
+  margin-bottom: 1%;
+}
+/***the description***/
+
+.contact-description {
+  color: #878787;
+  font-family: ubuntu, sans-serif;
+  font-weight: lighter;
+  font-size: .875rem;
+  margin-top: 1%;
+  padding-right: 11.25%;
+}
+
+/*****CONTACT AND REACH US SECTIONS**************************/
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact-us {
+  width: 47%;
+  height: 43.48%;
+}
+
+.reach-us {
+  width: 41%;
+}
+
+.h2-headers {
+  border-width: 100%;
+  border-bottom: solid .3125rem #525252;
+  font-family: open-sans, sans-serif;
+  font-weight: 300;
+  color: #ff6200;
+  padding-bottom: 2.29%;
+}
+
+
+
+/*form display**/
+
+form {
+  display: inline-block;
+}
+
+
+
+#name {
+  width: 97.56%;
+  border: .51%;
+  background-color: #f6f6f6;
+  border-style:solid;
+  border-width: 1px;
+  border-color: rgb(169, 169, 169);
+  font-family: ubuntu, sans-serif;
+  font-weight: 200;
+  font-size: 0.875rem;
+}
+
+input {
+  margin-bottom: .625rem;
+  padding-top: 0.4688rem;
+  padding-bottom: 0.4688rem;
+  padding-left: 0.4688rem;
+}
+
+#phone, #email {
+  width: 45%;
+  border: 0.426%;
+  background-color: #f6f6f6;
+  border-style:solid;
+  border-width: 1px;
+  border-color: rgb(169, 169, 169);
+  font-family: ubuntu, sans-serif;
+  font-weight: 200;
+  font-size: 0.875rem;
+}
+
+#phone {
+  margin-right: 4%;
+}
+
+#email {
+  margin-left: 0px;
+}
+
+
+#message {
+  height: 6.75rem;
+  width: 97%;
+  margin-bottom: 1.25rem;
+  padding-left: 0.4688rem;
+  background-color: #f6f6f6;
+  font-family: ubuntu, sans-serif;
+  font-weight: 200;
+  font-size: 0.875rem;
+}
+
+label {
+  text-align:left;
+}
+
+
+.btn {
+  width: 21.41%;
+  background-color: #ff6200;
+  color: white;
+  border: 0px;
+}
+
+/*************Reach Us*************/
+
+.icon {
+  width: 10%;
+}
+
+.skill-test-title {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.address {
+  margin-top:0px;
+  margin-bottom: 2rem;
+}
+
+.icon-images {
+  margin-top: 2.5rem;
+}
